@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirabella Woodward</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        header h1 span {
+            display: block;
+            font-size: 0.5em;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        .portfolio, .contact, .blog {
+            margin-bottom: 40px;
+        }
+        .social-media {
+            position: fixed;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            background-color: #333;
+            padding: 10px;
+        }
+        .social-media a {
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            text-decoration: none;
+        }
+        .social-media a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mirabella Woodward <span>Creative Marketer & Writer</span></h1>
+    </header>
+    <nav>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+        <a href="#blog">Blog</a>
+    </nav>
+    <div class="container">
+        <section id="portfolio" class="portfolio">
+            <h2>Portfolio</h2>
+            <p>Welcome to my portfolio. Here you can find some of my work in marketing, writing, and entertainment.</p>
+            <!-- Add your portfolio items here -->
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>Feel free to get in touch with me through any of the following channels:</p>
+            <ul>
+                <li>Email: <a href="mailto:mirabella@example.com">mirabella@example.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/mirabella-woodward" target="_blank">LinkedIn Profile</a></li>
+                <!-- Add other contact methods here -->
+            </ul>
+        </section>
+        <section id="blog" class="blog">
+            <h2>Blog</h2>
+            <p>Welcome to my blog. Here I share my thoughts on marketing, writing, and the entertainment industry.</p>
+            <!-- Add your blog posts here -->
+        </section>
+    </div>
+    <div class="social-media">
+        <a href="https://www.facebook.com/mirabella" target="_blank">Facebook</a>
+        <a href="https://www.twitter.com/mirabella" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/mirabella" target="_blank">Instagram</a>
+        <!-- Add other social media links here -->
+    </div>
+</body>
+</html>
